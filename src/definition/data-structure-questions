@@ -1,12 +1,24 @@
 Please answer the below Data Structure Questions:
-
 why do we need data structure?
+        A data structure is a specialized format for organising and storing data. General data structure types include the array,
+       the file, the record, the table, the tree, and so on. Any data structure is designed to organize data to suit a specific purpose
+       so that it can be accessed and worked with in appropriate ways.
+
 What are the various operations that can be performed on different Data Structures?
+ Traversing, Searching, Inserting, Deleting, Sorting and Merging.
 List out the areas in which data structures are applied extensively?
+Data Structures are mostly used in Database Management System, Compiler Design, Operating System, Statistical analysis package,
+     Numerical Analysis, Graphics, Artificial Intelligence and Simulation.
 what is an Array?
+ Array is used to store block memory. Also we can say array is used to store a collection of data
 what is the difference between the Array and ArrayList?
+The main difference with Array and ArrayList is, in Array the array size is static in nature. That means its length is fixed.
+     we can’t change its size once it is created. On the other hand ArrayList is dynamic in nature. ArrayList is also called as dynamic array or re-sizable array.
+
 what is LinkedList?
+LinkedList is a linear data structure where each element is a separate object.
 How is an Array different from Linked List?
+ An array, each element is independent, no connection with previous element or with its location. In Linked list, location or address
 what is queue?
 what is stack?
 what is FIFO and LIFO?

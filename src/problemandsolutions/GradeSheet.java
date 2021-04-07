@@ -20,6 +20,39 @@ public class GradeSheet {
     //Final score: 90
     //
     //Your grade is B.
+    public static void main(String[] args) {
+
+        Scanner aa= new Scanner(System.in);
+        double score1;
+        double score2;
+        double score3;
+        System.out.println("Please Enter your Quiz Score : ");
+        score1= aa.nextDouble();
+
+        System.out.println("Please Enter your Mid-Term Score : ");
+        score2= aa.nextDouble();
+
+        System.out.println("Please Enter your Final Score : ");
+        score3= aa.nextDouble();
+
+       double average =(score1+score2+score3)/3;
+
+        if(average >=90){
+            System.out.println("Your grade is A");
+        }
+        else if( average >=70 && average <90){
+            System.out.println("Your Grade is B");
+        }
+        else if(average >=50 && average <70){
+            System.out.println("Your Grade is C");
+        }
+        else{
+            System.out.println("your Grade is F");
+        }
+        //System.out.println("GoodLuck next time");
+
+
+    }
 
 
 
